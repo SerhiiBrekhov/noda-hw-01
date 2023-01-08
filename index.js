@@ -2,9 +2,7 @@
 const yargs = require('yargs/yargs')
 const { hideBin } = require('yargs/helpers')
 const argv = yargs(hideBin(process.argv)).argv
-// const contacts =  require('./db/contacts.json')
 
-// const PORT = process.env.PORT || 8081;
 
 const {listContacts, getContactById, removeContact, addContact} = require('./contacts');
 
